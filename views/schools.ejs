@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Département Détails</title>
+    <% include stylesheets %>
+    <link rel="stylesheet" href="/assets/css/schools.css" />
+</head>
+
+<body>
+    <% include header %>
+    <main class="container">
+        <table id="schools_table" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th class="th-sm">Établissement
+
+                    </th>
+                    <th class="th-sm">Région
+
+                    </th>
+                    <th class="th-sm">Département
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <% datas.forEach(function(data){ %>
+                <tr>
+                    <td> <a href="/schools/<%=data._id.cod_uai%>"><%=data._id.name%> </a></td>
+                    <td><%=data._id.lib_reg%></td>
+                    <td><%=data._id.lib_dep%></td>
+                </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </main>
+    <% include footer %>
+    <% include scripts %>
+    <script src="/assets/js/schools.js"></script>
+</body>
+
+</html>

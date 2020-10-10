@@ -1,0 +1,16 @@
+.chart {
+    border: 1px solid black;
+}
+
+.chart-row {
+    margin-top: 1em;
+}
+
+#stats-table {
+    margin-top: 1em;
+}
+
+.info-lib {
+    font-size: 1.2em;
+    color : #696c82
+}
