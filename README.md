@@ -1,2 +1,2 @@
 # apbStat2017
-Projet dont le but était de réaliser une interface Web permettant de visualiser les enregistrements d'une base de données non traditionnelles.
+Projet dont le but était de réaliser une interface Web permettant de visualiser les enregistrements d'une base de données non traditionnelles. Nous avons choisi de travailler sur les données publiques d'Admission Post-Bac de l'année 2016-2017, on peut alors parcourir chaque formation de France à fin d'obtenir des statistiques sur les admissions comme par exemple des informations sur la parité.
